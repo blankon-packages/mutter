@@ -1,8 +1,15 @@
-mutter (3.7.92-1blankon1) suroboyo; urgency=low
+mutter (3.8.0-1blankon1) suroboyo; urgency=low
 
-  * new upstream release
+  * New upstream release.
+  * Changes maintainer
 
- -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Wed, 27 Mar 2013 01:29:54 +0700
+ -- mijortsa <azis.astrojm@surabaya.di.blankon.in>  Wed, 27 Mar 2013 13:23:03 +0700
+
+mutter (3.8.0-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Wed, 27 Mar 2013 00:15:13 +0100
 
 mutter (3.7.92-1) experimental; urgency=low
 
