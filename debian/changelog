@@ -1,3 +1,17 @@
+mutter (3.8.1-1blankon1) suroboyo; urgency=low
+
+  * New upstream release.
+
+ -- Aris Febrianto <ariesfebrianto@gmail.com>  Thu, 25 Apr 2013 15:28:12 +0700
+
+mutter (3.8.1-1) experimental; urgency=low
+
+  * New upstream release
+  * debian/patches/02-dont-select-for-XI2-events.patch:
+    + Dropped, fixed X server is available in sid now
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Fri, 19 Apr 2013 18:57:59 +0200
+
 mutter (3.8.0-1blankon1) suroboyo; urgency=low
 
   * New upstream release.
