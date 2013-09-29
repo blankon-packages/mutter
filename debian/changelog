@@ -1,3 +1,24 @@
+mutter (3.10.0-0blankon1) suroboyo; urgency=medium
+
+  * New upstream release
+  * debian/patches/0009-Revert-window-actor-conservative-volume.patch:
+    one more git revert to avoid clutter update
+  * debian/patches/git_monitor_dont_shortcut_powersave_mode.patch: Dropped 
+    included in new version
+  * debian/patches/git_monitor_dont_shortcut_powersave_mode.patch
+    Fixes screen blanking only working once.
+  * debian/patches: revert 8 git patches to avoid dependency on
+    updated cogl/clutter
+  * debian/control.in: Bump b-d on gtk, Add b-d on upower-glib and
+    gnome-desktop-3
+  * debian/patches/git_revert_cogl_changes*.patch: revert 3 git patches
+    to avoid dependency on cogl 0.15.6
+  * debian/mutter-common.install: remove /usr/share/mutter
+  * debian/patches/git_fix_xrandr_modes.patch. 
+  * Bump package naming to libmutter0c
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Sun, 29 Sep 2013 21:53:43 +0700
+
 mutter (3.8.3-1blankon1) suroboyo; urgency=low
 
   * New upstream release.
