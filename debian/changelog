@@ -1,7 +1,6 @@
 mutter (3.10.1-2.blankon1) suroboyo; urgency=low
 
   * New upstream release
-  * Added patch: git-shaped-texture.patch
 
  -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Wed, 13 Nov 2013 19:12:53 +0700
 
