@@ -1,11 +1,2 @@
-0001-Revert-build-Bump-minimum-clutter-version.patch
-0002-Revert-meta-window-actor-Fix-spacing.patch
-0003-Revert-meta-window-actor-Throttle-obscured-frame-syn.patch
-0004-Revert-meta-shaped-texture-Don-t-queue-redraws-for-o.patch
-0005-Revert-configure-Require-Cogl-1.15.6.patch
-0006-Revert-tower-Fix-erroneous-return-value.patch
-0007-Revert-tower-make-sure-not-to-blend-when-updating-to.patch
-0008-Revert-texture-tower-Remove-CPU-codepath-for-mipmap-.patch
-0009-Revert-window-actor-conservative-volume.patch
 01_Wcast-align.patch
-04_ignore_shadow_and_padding.patch
+git-shaped-texture.patch
