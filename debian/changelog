@@ -1,3 +1,10 @@
+mutter (3.10.0-0blankon3) suroboyo; urgency=low
+
+  * debian/control:
+    - Bump B-D libcogl-dev & libclutter-1.0-dev
+
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Fri, 15 Nov 2013 22:22:28 +0700
+
 mutter (3.10.0-0blankon2) suroboyo; urgency=low
 
   * Adedd git-shaped-texture.patch
