@@ -1,3 +1,23 @@
+mutter (3.12.0-0blankon1) tambora; urgency=low
+
+  [ Sjoerd Simons ]
+  * debian/patches/prevent-double-lock-deadlock.patch:
+    + Added. Don't call X functions that lock the display in code paths that
+      have already locked the display if X threads have been initialized
+      (bgo#704101)
+
+  [ Andreas Henriksson ]
+  * New upstream release.
+  * Update build-dependencies according to configure.ac changes:
+    - bump upower 0.99.0
+    - bump cogl 1.17.1
+  * Bump Standards-Version to 3.9.5
+
+  [ Mahyuddin Ramli ]
+  * Sync from Debian Experiment but this UNRELEASE
+
+ -- Mahyuddin Ramli <yudi.al@gmail.com>  Fri, 28 Mar 2014 23:34:22 +0700
+
 mutter (3.10.3-0blankon1) suroboyo; urgency=low
 
   * New Upstream Release 
