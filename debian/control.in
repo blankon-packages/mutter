@@ -2,7 +2,6 @@ Source: mutter
 Section: x11
 Priority: optional
 Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
-Uploaders: Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Sjoerd Simons <sjoerd@debian.org>
 Uploaders: @GNOME_TEAM@
 Build-Depends: cdbs (>= 0.4.90),
                debhelper (>= 9),
