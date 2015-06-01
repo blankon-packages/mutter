@@ -46,7 +46,7 @@ Build-Depends: cdbs (>= 0.4.90),
                libsm-dev,
                libice-dev,
                libpam0g-dev,
-               libwayland-dev (>= 1.5.90) [linux-any],
+               libwayland-dev (>= 1.5.90),
                xkb-data,
                zenity
 Standards-Version: 3.9.6
@@ -104,7 +104,9 @@ Depends: ${shlibs:Depends},
          gsettings-desktop-schemas (>= 3.13.1),
          mutter-common (= ${source:Version})
 Conflicts: libmutter0, libmutter0a, libmutter0b,
-  libmutter0c, libmutter0d, libmutter0e
+  libmutter0c, libmutter0d
+Breaks: libmutter0e
+Replaces: libmutter0e
 Description: window manager library from the Mutter window manager
  Mutter is a small window manager, using GTK+ and Clutter to do
  everything.
