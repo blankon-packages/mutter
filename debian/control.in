@@ -105,6 +105,7 @@ Conflicts: libmutter0, libmutter0a, libmutter0b,
   libmutter0c, libmutter0d, libmutter0e
 Breaks: libmutter0f
 Replaces: libmutter0f
+Provides: libmutter0f
 Description: window manager library from the Mutter window manager
  Mutter is a small window manager, using GTK+ and Clutter to do
  everything.

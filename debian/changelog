@@ -1,3 +1,9 @@
+mutter (3.18.0-0blankon2) tambora; urgency=medium
+
+  * Rebuild 
+
+ -- mhy <dotovr@mhy>  Thu, 01 Oct 2015 20:39:10 +0700
+
 mutter (3.18.0-0blankon1) tambora; urgency=medium
 
   * New upstream release 
